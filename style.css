@@ -1,3 +1,30 @@
+* {
+    text-align: center;
+}
+
+.containerAll {
+    margin-top:20%;
+    align-items: center;
+}
+
 #containerGrid {
-    background-color: blueviolet;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 256px;
+    height: 256px;
+}
+
+.grid {
+    background-color: teal;
+    width: 16px;
+    height:16px;
+    /* border-style: solid; */
+    border-width: 1px;
+}
+
+.grid.hover {
+    background-color: red;
+    width: 16px;
+    height:16px;
 }
