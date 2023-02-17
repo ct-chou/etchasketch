@@ -3,7 +3,7 @@
 }
 
 .containerAll {
-    margin-top:20%;
+    margin-top:10%;
     align-items: center;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .grid {
-    background-color: teal;
+    background-color: rgb(190, 190, 190);
 }
 
 .grid.hover {
-    background-color: red;
+    background-color: rgb(91, 89, 89);
 }
 
 button {
