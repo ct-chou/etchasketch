@@ -11,20 +11,19 @@
     display: flex;
     margin: auto;
     flex-wrap: wrap;
-    width: 256px;
-    height: 256px;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
 }
 
 .grid {
     background-color: teal;
-    width: 16px;
-    height:16px;
-    /* border-style: solid; */
-    border-width: 1px;
 }
 
 .grid.hover {
     background-color: red;
-    width: 16px;
-    height:16px;
+}
+
+button {
+    margin-bottom: 20px;
 }
